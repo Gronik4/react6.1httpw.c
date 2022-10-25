@@ -8,4 +8,4 @@
 
 **Project Sample** 
 
-[Посмотреть результат](  )
+[Посмотреть результат](https://gronik4.github.io/react6.1httpw.c/)
