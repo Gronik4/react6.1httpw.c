@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import turnArrowsF from './utils/turnArrows';
+import propTypes from 'prop-types'; 
 
 export class RenderArrows extends Component {
   constructor(props) {
@@ -41,5 +42,10 @@ export class RenderArrows extends Component {
   }
 }
 
-export default RenderArrows
+RenderArrows.prpoTypes = {
+  data: propTypes.object,
+  getCurrent: propTypes.func,
+  interval: propTypes.func
+}
 
+export default RenderArrows;

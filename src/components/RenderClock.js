@@ -1,6 +1,7 @@
 import React from 'react';
 import { RenderNumber } from './RenderNumber';
 import { RenderArrows } from './RenderArrows';
+import propTypes from 'prop-types';
 
 export const RenderClock = (props) => {
   const {data, onClokDelete} = props;
@@ -30,3 +31,8 @@ export const RenderClock = (props) => {
   )  
 }
 
+RenderClock.propTypes = {
+  data: propTypes.object,
+  deleteClok: propTypes.func,
+  onClokDelete: propTypes.func
+}

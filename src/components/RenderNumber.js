@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import propTypes from 'prop-types';
 
 export const RenderNumber = () => {
   let hours = [];
@@ -12,3 +13,6 @@ export const RenderNumber = () => {
   )
 }
 
+RenderNumber.propTypes = {
+  RenderNumber: propTypes.func
+}

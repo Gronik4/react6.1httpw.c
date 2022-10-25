@@ -2,6 +2,7 @@ import React from 'react';
 import { correction } from '../data/correction';
 import { TimeStart } from './utils/timeStart';
 import {nanoid} from 'nanoid';
+import propTypes from 'prop-types';
 
 export const Select = (props) => {
   const {onSelectTimeZone} = props;
@@ -27,4 +28,10 @@ export const Select = (props) => {
       })}
     </select>
   )
+}
+
+Select.propTypes = {
+  list: propTypes.object,
+  handelChange: propTypes.func,
+  onSelectTimeZone: propTypes.func
 }
