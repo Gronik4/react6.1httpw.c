@@ -6,6 +6,6 @@
 1. Вы выбираете из списка город, и часы с его местным временем автоматически добавляются и (что самое важное) часы начинают "тикать".  
 2. При нажатии на кнопку "удалить", рядом с часами часы автоматически удаляются, при этом все подписки (setTimeout, setInterval и другие) должны вычищаться в соответствующем методе жизненного цикла.  
 
-**Project Sample** 
+**Project Sample** [![Build status](https://ci.appveyor.com/api/projects/status/btvv0a0la1cxmhlt?svg=true)](https://ci.appveyor.com/project/Gronik4/react6-1httpw-c) 
 
 [Посмотреть результат](https://gronik4.github.io/react6.1httpw.c/)
